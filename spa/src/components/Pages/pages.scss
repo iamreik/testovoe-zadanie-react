@@ -1,0 +1,25 @@
+.pages {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  &__item {
+    padding-inline: 5px;
+    font-family: "Roboto Regular", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 137.69%;
+    a {
+      text-decoration: none;
+      color: #474955;
+    }
+    &.active {
+      color: #7ebc3c;
+    }
+  }
+}
+.visually-hidden {
+  display: none !important;
+}

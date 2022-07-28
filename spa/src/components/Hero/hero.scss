@@ -1,0 +1,37 @@
+.hero {
+  &__container {
+    width: 100%;
+    margin-top: 15px;
+  }
+  &__heading {
+    display: flex;
+    flex-direction: row;
+    background: #474955;
+    :first-child {
+      max-width: 110px;
+      padding-left: 23px;
+      width: 100%;
+    }
+    :nth-child(2) {
+      max-width: 530px;
+      padding-left: 125px;
+      width: 100%;
+    }
+    :last-child {
+      max-width: 432px;
+      padding-left: 121px;
+      width: 100%;
+    }
+  }
+  &__content {
+    background: #ffffff;
+  }
+  &__pagination {
+    background-color: #ffffff;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 30px;
+  }
+}
